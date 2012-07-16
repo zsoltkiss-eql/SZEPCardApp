@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StartWorkflow>
+    <TemplateName>HB_BEJELENTKEZES</TemplateName>
+    <Variables>
+        <isAuthenticateForEveryTx>false</isAuthenticateForEveryTx>
+        <isTemplateNeeded>TRUE</isTemplateNeeded>
+        <isIdentificationMode>JELSZOALAPU</isIdentificationMode>
+        <isInitialAccount>1171700920111126</isInitialAccount>
+        <isClientCode>HAZIBANK</isClientCode>
+        <isSecretData>homebank</isSecretData>
+        <isApproval>TRUE</isApproval>
+        <isIdentificationData>1001622</isIdentificationData>
+    </Variables>
+</StartWorkflow>

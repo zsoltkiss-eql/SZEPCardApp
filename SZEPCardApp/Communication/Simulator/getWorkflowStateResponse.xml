@@ -1,0 +1,17 @@
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <env:Header/>
+    <env:Body env:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+        <m:getWorkflowStateResponse xmlns:m="java:hu.iqsoft.otp.mw.access">
+            <return xsi:type="n1:WorkflowState" xmlns:n1="java:hu.iqsoft.otp.mw.access">
+                <completed xsi:type="xsd:boolean">false</completed>
+                <endTime xsi:type="xsd:string">2012.05.23. 17:59:07</endTime>
+                <instanceId xsi:type="xsd:string">26251044</instanceId>
+                <result xsi:type="xsd:base64Binary"><!-- Ide jon a folyamat valasz --></result>
+                <startTime xsi:type="xsd:string">2012.05.23. 17:59:07</startTime>
+                <templateName xsi:type="xsd:string">HB_BEJELENTKEZES</templateName>
+                <timeout xsi:type="xsd:boolean">false</timeout>
+            </return>
+        </m:getWorkflowStateResponse>
+    </env:Body>
+    
+</env:Envelope>

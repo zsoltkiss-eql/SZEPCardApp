@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:szepkartya">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:ElfKeres soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <iranyitoszam xsi:type="xsd:string">%@</iranyitoszam>
+            <telepules xsi:type="xsd:string">%@</telepules>
+            <szallas_zseb xsi:type="xsd:int">%@</szallas_zseb>
+            <vendeglatas_zseb xsi:type="xsd:int">%@</vendeglatas_zseb>
+            <rekreacio_zseb xsi:type="xsd:int">%@</rekreacio_zseb>
+        </urn:ElfKeres>
+    </soapenv:Body>
+</soapenv:Envelope>

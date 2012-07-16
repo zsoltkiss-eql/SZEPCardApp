@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:szepkartya">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:ElfAdatok soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <elfogadohely_azonosito xsi:type="xsd:int">%@</elfogadohely_azonosito>
+        </urn:ElfAdatok>
+    </soapenv:Body>
+</soapenv:Envelope>

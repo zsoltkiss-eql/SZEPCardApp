@@ -1,0 +1,6 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://service.szepcard.otp.eqlsoft.hu/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ser:elfogadohelyekTelepulesei/>
+    </soapenv:Body>
+</soapenv:Envelope>

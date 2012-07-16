@@ -1,0 +1,24 @@
+ <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <SOAP-ENV:Body>
+         <m:startWorkflowMobilalkalmazas xmlns:m="urn:MWAccess" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <arg0 xsi:type="xsd:string">000</arg0>
+            <arg1 xsi:type="xsd:string">
+                <![CDATA[
+                <StartWorkflow>
+                <TemplateName>000</TemplateName>
+                <Variables>
+                <isIdentificationMode>JELSZOALAPU</isIdentificationMode>
+                <isClientCode>MOBILALKALMAZAS</isClientCode>
+                <isAccountNamesRequired>TRUE</isAccountNamesRequired>
+                <isFromCache>FALSE</isFromCache>
+                <isIdentificationData>1001870</isIdentificationData>
+                <isMobilalkalmazasToken>TW72WOWZI0fcGxomEmzVOTVIpHpynw1gDXluTJmO</isMobilalkalmazasToken>
+                <isSecretData>aaa111</isSecretData>
+                </Variables>
+                </StartWorkflow>
+                ]]></arg1>
+         </m:startWorkflowMobilalkalmazas>
+         </SOAP-ENV:Body>
+     </SOAP-ENV:Envelope>

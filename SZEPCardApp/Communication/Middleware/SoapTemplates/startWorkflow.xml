@@ -1,0 +1,15 @@
+<SOAP-ENV:Envelope
+	xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SOAP-ENV:Body>
+		<m:startWorkflow xmlns:m="urn:MWAccess" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+			<arg0 xsi:type="xsd:string">%@</arg0>
+			<arg1 xsi:type="xsd:string"><![CDATA[%@]]></arg1>
+		</m:startWorkflow>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+
+

@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:java="java:hu.iqsoft.otp.mw.access">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <java:getWorkflowState soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <arg0 xsi:type="xsd:string">%@</arg0>
+        </java:getWorkflowState>
+    </soapenv:Body>
+</soapenv:Envelope>

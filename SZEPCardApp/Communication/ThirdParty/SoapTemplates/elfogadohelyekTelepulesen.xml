@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://service.szepcard.otp.eqlsoft.hu/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ser:elfogadohelyekTelepulesen>
+            <arg0>%@</arg0>
+            <arg1>%@</arg1>
+            <arg2>%@</arg2>
+            <arg3>%@</arg3>
+            <arg4>%@</arg4>
+        </ser:elfogadohelyekTelepulesen>
+    </soapenv:Body>
+</soapenv:Envelope>

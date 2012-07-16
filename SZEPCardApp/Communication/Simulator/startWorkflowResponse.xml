@@ -1,0 +1,9 @@
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <env:Header/>
+    <env:Body env:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+        <m:startWorkflowResponse xmlns:m="java:hu.iqsoft.otp.mw.access">
+            <return xsi:type="xsd:string">HB_BEJELENTKEZES;26251044;192.168.214.64:17003</return>
+        </m:startWorkflowResponse>
+    </env:Body>
+</env:Envelope>
+<!-- BANKKARTYASZAMLAEGYENLEGLEKERDEZES HB_BEJELENTKEZES -->

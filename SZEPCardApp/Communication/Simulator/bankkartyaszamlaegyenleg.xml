@@ -1,0 +1,16 @@
+<?xml version="1.0" ?> 
+<answer>
+    <resultset>
+        <record>
+            <osszeg1>999</osszeg1>
+            <osszeg2>2600000</osszeg2>
+            <osszeg3>11111</osszeg3> 
+            <egyenleg_datum>2012.05.24 17:52:33</egyenleg_datum>
+            <tir_statusz>00011001100</tir_statusz>
+        </record>
+    </resultset>
+    <messagelist>
+        <message>SIKER</message>
+    </messagelist>
+    <infolist/>
+</answer>
